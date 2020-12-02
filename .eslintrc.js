@@ -29,8 +29,6 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'unicorn', 'promise'],
   rules: {
-    // allow async-await
-    // 'no-console': 'error',
     'no-var': 'error',
   },
 };
