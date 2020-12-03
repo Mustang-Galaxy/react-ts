@@ -34,5 +34,6 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'unicorn', 'promise'],
   rules: {
     'no-var': 'error',
+    '@typescript-eslint/no-var-requires': 'off',
   },
 };
